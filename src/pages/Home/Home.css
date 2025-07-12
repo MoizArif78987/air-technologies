@@ -333,6 +333,27 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-logo {
+  font-size: 2rem;
+  transition: all 0.4s ease;
+  position: absolute;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.tech-name {
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  position: absolute;
+  opacity: 0;
+  transform: translateX(30px);
 }
 
 .tech-item::before {
@@ -353,6 +374,16 @@
 .tech-item:hover {
   border-color: #667eea;
   transform: translateY(-5px);
+}
+
+.tech-item:hover .tech-logo {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.tech-item:hover .tech-name {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 /* Services Overview */

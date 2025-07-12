@@ -199,12 +199,42 @@ const Home = () => {
               
               <div className="about-visual">
                 <div className="tech-stack">
-                  <div className="tech-item">React</div>
-                  <div className="tech-item">Node.js</div>
-                  <div className="tech-item">Python</div>
-                  <div className="tech-item">AWS</div>
-                  <div className="tech-item">Docker</div>
-                  <div className="tech-item">MongoDB</div>
+                  <div className="tech-item">
+                    <span className="tech-logo">⚛️</span>
+                    <span className="tech-name">React</span>
+                  </div>
+                  <div className="tech-item">
+                    <span className="tech-logo">🟢</span>
+                    <span className="tech-name">Node.js</span>
+                  </div>
+                  <div className="tech-item">
+                    <span className="tech-logo">🐍</span>
+                    <span className="tech-name">Python</span>
+                  </div>
+                  <div className="tech-item">
+                    <span className="tech-logo">☁️</span>
+                    <span className="tech-name">AWS</span>
+                  </div>
+                  <div className="tech-item">
+                    <span className="tech-logo">🐳</span>
+                    <span className="tech-name">Docker</span>
+                  </div>
+                  <div className="tech-item">
+                    <span className="tech-logo">🍃</span>
+                    <span className="tech-name">MongoDB</span>
+                  </div>
+                  <div className="tech-item">
+                    <span className="tech-logo">📱</span>
+                    <span className="tech-name">React Native</span>
+                  </div>
+                  <div className="tech-item">
+                    <span className="tech-logo">🔷</span>
+                    <span className="tech-name">.Net</span>
+                  </div>
+                  <div className="tech-item">
+                    <span className="tech-logo">➕</span>
+                    <span className="tech-name">Many More</span>
+                  </div>
                 </div>
               </div>
             </div>

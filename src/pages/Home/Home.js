@@ -99,8 +99,8 @@ const Home = () => {
                   <iframe 
                     src="https://my.spline.design/robotfollowcursorforlandingpagemc-pyIghB8haJcW2xKCsVherzn0/" 
                     frameBorder="0" 
-                    width="100%" 
-                    height="100%"
+                    width="120%" 
+                    height="120%"
                     title="3D Robot Animation"
                   ></iframe>
                 </div>

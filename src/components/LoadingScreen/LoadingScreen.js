@@ -48,7 +48,7 @@ const LoadingScreen = ({ onLoadingComplete }) => {
                 <motion.h2
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.2, duration: 0.5 }}
+                  transition={{ delay: 0, duration: 0.3 }}
                 >
                   Welcome to AO Technologies
                 </motion.h2>
@@ -56,7 +56,7 @@ const LoadingScreen = ({ onLoadingComplete }) => {
                   className="loading-bar"
                   initial={{ width: 0 }}
                   animate={{ width: "100%" }}
-                  transition={{ delay: 0.4, duration: 0.3 }}
+                  transition={{ delay: 0.3, duration: 0.3 }}
                 />
               </div>
             </motion.div>

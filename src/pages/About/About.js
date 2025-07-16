@@ -91,7 +91,7 @@ const About = () => {
             transition={{ duration: 0.8 }}
             className="hero-content"
           >
-            <h1>About Air Technologies</h1>
+            <h1>About AO Technologies</h1>
             <p className="hero-description">
               We are a passionate team of developers, designers, and innovators 
               dedicated to transforming businesses through cutting-edge software solutions.
@@ -298,7 +298,7 @@ const About = () => {
             className="why-content"
           >
             <div className="why-text">
-              <h2>Why Choose Air Technologies?</h2>
+              <h2>Why Choose AO Technologies?</h2>
               <div className="why-points">
                 <div className="why-point">
                   <FiZap className="why-icon" />

@@ -53,7 +53,7 @@ const Contact = () => {
     {
       icon: <FiMail />,
       title: 'Email Us',
-      info: 'info@airtechnologies.com',
+      info: 'info@AOtechnologies.com',
       description: 'Send us an email anytime'
     },
     {
@@ -343,7 +343,7 @@ const Contact = () => {
               className="contact-sidebar"
             >
               <div className="sidebar-card">
-                <h3>Why Choose Air Technologies?</h3>
+                <h3>Why Choose AO Technologies?</h3>
                 <ul className="benefits-list">
                   <li>
                     <FiCheck className="check-icon" />
@@ -447,7 +447,7 @@ const Contact = () => {
               Contact us today for a free consultation.
             </p>
             <motion.a
-              href="mailto:info@airtechnologies.com"
+              href="mailto:info@AOtechnologies.com"
               className="btn-primary"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

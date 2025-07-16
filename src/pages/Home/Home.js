@@ -60,7 +60,7 @@ const Home = () => {
                 <span className="gradient-text"> Digital Reality</span>
               </h1>
               <p className="hero-description">
-                Air Technologies specializes in turning innovative concepts into 
+                AO Technologies specializes in turning innovative concepts into 
                 powerful software solutions. From startups to enterprises, we deliver cutting-edge 
                 technology that drives growth and success.
               </p>
@@ -95,37 +95,14 @@ const Home = () => {
             >
               <div className="hero-card">
                 <div className="card-glow"></div>
-                <div className="code-preview">
-                  <div className="code-header">
-                    <div className="code-dots">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                  </div>
-                  <div className="code-content">
-                    <div className="code-line">
-                      <span className="code-keyword">const</span>
-                      <span className="code-variable"> success</span>
-                      <span className="code-operator"> = </span>
-                      <span className="code-function">buildApp</span>
-                      <span className="code-bracket">(</span>
-                    </div>
-                    <div className="code-line indent">
-                      <span className="code-property">idea</span>
-                      <span className="code-operator">: </span>
-                      <span className="code-string">'innovative'</span>
-                      <span className="code-operator">,</span>
-                    </div>
-                    <div className="code-line indent">
-                      <span className="code-property">team</span>
-                      <span className="code-operator">: </span>
-                      <span className="code-string">'Air Technologies'</span>
-                    </div>
-                    <div className="code-line">
-                      <span className="code-bracket">);</span>
-                    </div>
-                  </div>
+                <div className="spline-container">
+                  <iframe 
+                    src="https://my.spline.design/robotfollowcursorforlandingpagemc-pyIghB8haJcW2xKCsVherzn0/" 
+                    frameBorder="0" 
+                    width="120%" 
+                    height="120%"
+                    title="3D Robot Animation"
+                  ></iframe>
                 </div>
               </div>
             </motion.div>
@@ -167,7 +144,7 @@ const Home = () => {
             <div className="section-header">
               <h2>Who We Are</h2>
               <p className="section-subtitle">
-                Air Technologies is a forward-thinking technology partner 
+                AO Technologies is a forward-thinking technology partner 
                 dedicated to transforming businesses through innovative software solutions.
               </p>
             </div>
@@ -198,6 +175,39 @@ const Home = () => {
               </div>
               
               <div className="about-visual">
+                <div className="code-preview">
+                  <div className="code-header">
+                    <div className="code-dots">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div className="code-content">
+                    <div className="code-line">
+                      <span className="code-keyword">const</span>
+                      <span className="code-variable"> success</span>
+                      <span className="code-operator"> = </span>
+                      <span className="code-function">buildApp</span>
+                      <span className="code-bracket">(</span>
+                    </div>
+                    <div className="code-line indent">
+                      <span className="code-property">idea</span>
+                      <span className="code-operator">: </span>
+                      <span className="code-string">'innovative'</span>
+                      <span className="code-operator">,</span>
+                    </div>
+                    <div className="code-line indent">
+                      <span className="code-property">team</span>
+                      <span className="code-operator">: </span>
+                      <span className="code-string">'AO Technologies'</span>
+                    </div>
+                    <div className="code-line">
+                      <span className="code-bracket">);</span>
+                    </div>
+                  </div>
+                </div>
+                
                 <div className="tech-stack">
                   <div className="tech-item">
                     <span className="tech-logo">⚛️</span>

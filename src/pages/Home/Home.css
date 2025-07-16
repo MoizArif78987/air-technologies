@@ -152,9 +152,36 @@
 
 .code-preview {
   width: 400px;
-  background: #1a1a2e;
+  background: #0d0d0d;
   border-radius: 15px;
   overflow: hidden;
+  transform: perspective(1000px) rotateX(5deg) rotateY(-5deg);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.6),
+    0 10px 20px rgba(102, 126, 234, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.code-preview::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, transparent 50%, rgba(118, 75, 162, 0.05) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.code-preview:hover {
+  transform: perspective(1000px) rotateX(2deg) rotateY(-2deg) translateY(-5px);
+  box-shadow: 
+    0 30px 60px rgba(0, 0, 0, 0.8),
+    0 15px 30px rgba(102, 126, 234, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .spline-container {
@@ -170,9 +197,11 @@
 }
 
 .code-header {
-  background: #16213e;
+  background: #080808;
   padding: 15px 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  z-index: 2;
 }
 
 .code-dots {
@@ -200,6 +229,8 @@
   font-family: 'Fira Code', monospace;
   font-size: 14px;
   line-height: 1.8;
+  position: relative;
+  z-index: 2;
 }
 
 .code-line {
@@ -241,7 +272,7 @@
 /* Stats Section */
 .stats-section {
   padding: 80px 0;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .stats-grid {
@@ -273,7 +304,7 @@
 
 /* About Preview Section */
 .about-preview {
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .section-header {
